@@ -15,7 +15,7 @@
     function setup() {
       document.getElementById("days_together").value = daysBetween('04/01/2018', new Date().toJSON().slice(0,10).split('-').reverse().join('/'));
     }
-    window.onload = setup;
+    setup();
   </script>
   
   <style>
@@ -29,11 +29,7 @@
   <body>
     <div class="text">
       <br><br>
-      <p id="days_together">
-        <script>
-          daysBetween('04/01/2018', new Date().toJSON().slice(0,10).split('-').reverse().join('/'));
-        </script>
-      </p>
+      <p id="days_together">AAAAAAA</p>
     </div>
   </body>
 

@@ -13,7 +13,7 @@
       return Math.floor((Date.UTC(dt2.getFullYear(), dt2.getMonth(), dt2.getDate()) - Date.UTC(dt1.getFullYear(), dt1.getMonth(), dt1.getDate()) ) /(1000 * 60 * 60 * 24));
     }
     function setup() {
-      document.getElementById("days_together").value = daysBetween('04/01/2018', new Date().toJSON().slic(0,10).split('-').reverse().join('/'));
+      document.getElementById("days_together").value = daysBetween('04/01/2018', new Date().toJSON().slice(0,10).split('-').reverse().join('/'));
     }
     window.onload = setup;
   </script>

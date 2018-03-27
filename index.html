@@ -29,7 +29,11 @@
   <body>
     <div class="text">
       <br><br>
-      <p id="days_together">Als war</p>
+      <p id="days_together">
+        <script>
+          daysBetween('04/01/2018', new Date().toJSON().slice(0,10).split('-').reverse().join('/'));
+        </script>
+      </p>
     </div>
   </body>
 

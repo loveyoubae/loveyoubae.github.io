@@ -8,14 +8,17 @@
   
   <script>
     function daysBetween(date1, date2) {
-      var dt1 = new Date(date1);
-      var dt2 = new Date(date2);
-      return Math.floor((Date.UTC(dt2.getFullYear(), dt2.getMonth(), dt2.getDate()) - Date.UTC(dt1.getFullYear(), dt1.getMonth(), dt1.getDate()) ) /(1000 * 60 * 60 * 24));
+      var date1 = new Date(date1);
+      var date2 = new Date(date2);
+      var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+      var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+      return diffDays;
     }
+    
     function setup() {
-      document.getElementById("days_together").value = daysBetween('04/01/2018', '27/03/2018');
+      document.getElementById("days_together").value = daysBetween('04/01/2018', new Date());
     }
-    setup();
+
     window.onload = setup;
   </script>
   

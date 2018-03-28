@@ -17,7 +17,7 @@
     }
     
     function setup() {
-      document.getElementById("days_together").value = daysBetween('04/01/2018', new Date());
+      document.getElementById("days_together").innerHTML = daysBetween('2018/01/04', new Date()) + " days";
     }
 
     window.onload = setup;

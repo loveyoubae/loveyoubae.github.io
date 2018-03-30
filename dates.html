@@ -16,7 +16,11 @@
     }
     
     function setup() {
-      document.getElementById("days_together").innerHTML = daysBetween('2018/01/04', new Date()) + "days";
+      document.getElementById("meeting1").innerHTML = daysBetween('2019/01/01', new Date()) + "days left");
+      document.getElementById("meeting2").innerHTML = daysBetween('2019/01/01', new Date()) + "days left");
+      document.getElementById("wedding1").innerHTML = daysBetween('2019/01/01', new Date()) + "days left");
+      document.getElementById("wedding2").innerHTML = daysBetween('2019/01/01', new Date()) + "days left");
+      document.getElementById("babies").innerHTML = daysBetween('2026/08/01', new Date()) + "days left");
     }
     window.onload = setup;
   </script>
@@ -40,8 +44,12 @@
   
   <body>
     <div class="text">
-      <br><br>
-      <h1 id="days_together" onclick="location.href = 'dates.html'"><b></b></h1>
+      <h1>04.01.2018</h1>
+      <h1 id="meeting1"></h1>
+      <h1 id="meeting2"></h1>
+      <h1 id="wedding1"></h1>
+      <h1 id="wedding2"></h1>
+      <h1 id="babies"></h1>
     </div>
   </body>
 

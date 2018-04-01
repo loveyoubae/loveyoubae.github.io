@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width">
-    <title>♡♡♡</title>
+    <title>Our dates and counters❤</title>
   </head>
   
   <script>
@@ -17,10 +17,12 @@
     
     function setup() {
       document.getElementById("meeting1").innerHTML = daysBetween('2019/01/01', new Date()) + "days left";
-      document.getElementById("meeting2").innerHTML = daysBetween('2019/01/01', new Date()) + "days left";
+      document.getElementById("meeting2").innerHTML = daysBetween('2023/04/01', new Date()) + "days left";
+      document.getElementById("meeting3").innerHTML = daysBetween('2023/12/20', new Date()) + "days left";
       document.getElementById("wedding1").innerHTML = daysBetween('2019/01/01', new Date()) + "days left";
       document.getElementById("wedding2").innerHTML = daysBetween('2019/01/01', new Date()) + "days left";
       document.getElementById("babies").innerHTML = daysBetween('2026/08/01', new Date()) + "days left";
+      alert("Click on any counter to see more❤");
     }
     window.onload = setup;
   </script>
@@ -45,11 +47,12 @@
   <body>
     <div class="text">
       <h1>04.01.2018</h1>
-      <h1 id="meeting1"></h1>
-      <h1 id="meeting2"></h1>
-      <h1 id="wedding1"></h1>
-      <h1 id="wedding2"></h1>
-      <h1 id="babies"></h1>
+      <h1 id="meeting1" onclick="alert('Days left to our meeting!❤ (if you will be able to come on 1 January of 2019)')"></h1>
+      <h1 id="meeting2" onclick="alert('Days left to our meeting❤ (if you will be able to come on my birthday in 5 years)')"></h1>
+      <h1 id="meeting3" onclick="alert('Days left to our meeting❤ (if I will be able to come on Christmas in 5 years)')"></h1>
+      <h1 id="wedding1" onclick="alert('Days left to our wedding in Peru❤ (if it will be on ...)')"></h1>
+      <h1 id="wedding2" onclick="alert('Days left to our wedding in Russia❤ (if it will be on ...)')"></h1>
+      <h1 id="babies" onclick="alert('❤❤❤Days left to the day when we will make (I think not have yet make:))) ) our baby❤❤❤')"></h1>
     </div>
   </body>
 

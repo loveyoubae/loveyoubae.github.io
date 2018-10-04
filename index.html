@@ -4,6 +4,7 @@
     <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width">
     <title>Peru + Russia</title>
     <link href="lib/styles/main.css" rel="stylesheet" type="text/css">
+    <script src="lib/scripts/dates.js"></script>
   </head>
 
   <style>
@@ -15,11 +16,18 @@
     }
   </style>
 
-  <body>
+  <script>
+    function set_counter() {
+        var met = "01/04/2018";
+        document.getElementById("counter").innerHTML = get_days_to_date(met);
+    }
+  </script>
+
+  <body onload="set_counter()">
       <div class="centrate">
           <table class="counter_text">
               <tr valign="top">
-                  <td style="font-size: 65pt">9275</td>
+                  <td id="counter" style="font-size: 65pt">9275</td>
                   <td>
                       <span style="font-size: 35pt">days</span>
                       <br>

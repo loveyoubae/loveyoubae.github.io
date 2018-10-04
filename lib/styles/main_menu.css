@@ -1,6 +1,6 @@
 .topnav {
+    background-color: #111;
     width: 100%;
-    border-bottom-color: #111;
 }
 
 .topnav a {
@@ -14,7 +14,6 @@
 }
 
 .topnav a:hover {
-    background-color: #aaa;
     color: black;
 }
 
@@ -23,7 +22,15 @@
     color: white;
 }
 
+.topnav a.active:hover {
+    color: black;
+}
+
 .topnav a.login {
     background-color: #05b278;
     color: white;
+}
+
+.topnav a.login:hover {
+    color: black;
 }

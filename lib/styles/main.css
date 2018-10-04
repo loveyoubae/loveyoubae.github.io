@@ -12,12 +12,12 @@
 }
 
 .halign_left {
-    left: 0;
+    left: 1%;
     position: absolute;
 }
 
 .halign_right {
-    right: 0;
+    right: 1%;
     position: absolute;
 }
 

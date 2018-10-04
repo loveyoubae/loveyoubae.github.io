@@ -1,5 +1,6 @@
 .topnav {
     width: 100%;
+    border-bottom-color: #111;
 }
 
 .topnav a {
@@ -13,7 +14,7 @@
 }
 
 .topnav a:hover {
-    background-color: #f4418b;
+    background-color: #7a8cff;
     color: black;
 }
 

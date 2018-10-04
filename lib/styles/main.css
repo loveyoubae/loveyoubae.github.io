@@ -1,5 +1,5 @@
 .counter_text {
-  font-family: "CourierNew";
+  font-family: "CourierNew", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   text-align: center;
   color: #e0e0e0;
   text-shadow: #555 1px 1px 0, #555 2px 2px 0, #555 3px 3px 0;

@@ -20,7 +20,6 @@ img#login-heart-peru {
     position: fixed;
     left: 30%;
     top: 60%;
-    size: relative;
     width: 3%;
     height: 3%;
 }
@@ -29,7 +28,6 @@ img#login-heart-russia {
     position: fixed;
     left: 63%;
     top: 39%;
-    size: relative;
     width: 3%;
     height: 3%;
 }

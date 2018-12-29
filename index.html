@@ -1,50 +1,25 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width">
-    <title>Peru + Russia</title>
-    <link href="lib/styles/main.css" rel="stylesheet" type="text/css">
-    <link href="lib/styles/main_menu.css" rel="stylesheet" type="text/css">
-    <script src="lib/scripts/dates.js"></script>
-  </head>
-
-  <style>
-    html {
-      background: no-repeat center center fixed;
-      background-size: cover;
-      height: 100%;
-      overflow: hidden;
-      background-color: #373a56;
-    }
-  </style>
-
-  <script>
-    function set_counter() {
-        var met = "01/04/2018";
-        document.getElementById("counter").innerHTML = get_days_to_date(met);
-    }
-  </script>
-
-  <body onload="set_counter()">
-      <div class="topnav noselect" width=100%>
-         <a class="active" href="index.html">Home</a>
-         <a href="pages/dates.html">Dates</a>
-         <a href="pages/about.html">We</a>
-         <a class="login halign_right" href="pages/login.html">Log In</a>
-      </div>
-
-      <div class="centrate noselect">
-          <table class="counter_text">
-              <tr valign="top">
-                  <td id="counter" style="font-size: 65pt">9275</td>
-                  <td>
-                      <span style="font-size: 35pt">days</span>
-                      <br>
-                      <span style="font-size: 17pt">together</span>
-                  </td>
-              </tr>
-          </table>
-      </div>
-  </body>
-
+    <head>
+        <meta charset="utf-8">
+        <title>Our site♥</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+    </head>
+    
+    <body style="width: 90%">
+        <img id="login-bg" src="media/world_bw.jpg" alt="">
+        <img id="login-heart-peru" src="media/heart_red.png" alt="">
+        <img id="login-heart-russia" src="media/heart_red.png" alt="">
+        
+        <div id="valign-center">
+            <form class="pure-form" align="middle">
+                <fieldset>
+                    <input type="password" placeholder="Password">    
+                    <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
 </html>

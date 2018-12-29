@@ -19,7 +19,8 @@ img#login-bg {
 img#login-heart-peru {
     position: absolute;
     left: 27%;
-    top: 57%;
+    top: 59%;
+    size: relative;
     width: 3%;
     height: 3%;
 }
@@ -28,6 +29,20 @@ img#login-heart-russia {
     position: absolute;
     left: 56%;
     top: 40%;
+    size: relative;
     width: 3%;
     height: 3%;
+}
+
+.heartbeat {
+    animation: beating .5s linear infinite alternate;
+}
+
+@keyframes beating {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1.0);
+    }
 }

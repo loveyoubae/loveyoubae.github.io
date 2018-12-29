@@ -18,18 +18,18 @@ img#login-bg {
 
 img#login-heart-peru {
     position: fixed;
-    left: 30%;
+    left: 36%;
     top: 60%;
-    width: 3%;
-    height: 3%;
+    width: 2%;
+    height: 4%;
 }
 
 img#login-heart-russia {
     position: fixed;
-    left: 63%;
-    top: 39%;
-    width: 3%;
-    height: 3%;
+    left: 54%;
+    top: 38%;
+    width: 2%;
+    height: 4%;
 }
 
 .heartbeat {

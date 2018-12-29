@@ -17,18 +17,18 @@ img#login-bg {
 }
 
 img#login-heart-peru {
-    position: absolute;
-    left: 27%;
-    top: 59%;
+    position: fixed;
+    left: 30%;
+    top: 60%;
     size: relative;
     width: 3%;
     height: 3%;
 }
 
 img#login-heart-russia {
-    position: absolute;
-    left: 56%;
-    top: 40%;
+    position: fixed;
+    left: 63%;
+    top: 39%;
     size: relative;
     width: 3%;
     height: 3%;
